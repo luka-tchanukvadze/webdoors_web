@@ -1,0 +1,186 @@
+@media (width > 1975px) {
+  .square-1{
+    width: 65%;
+  }
+  
+  .square-2{
+    transform: rotate(90deg);
+    right: 48%;
+  }
+  .square-3{
+    transform: rotate(90deg);
+    right: 48%;
+  }
+  .rotate{
+    transform: rotate(270deg);
+  }
+  .square-4{
+    width: 65%;
+  }
+  
+}
+@media (max-width: 1700px) {
+  .square-2{
+    transform: rotate(90deg);
+  }
+  .square-3{
+    transform: rotate(90deg);
+  }
+
+  .rotate{
+    transform: rotate(270deg);
+  }
+}
+@media (max-width: 1450px) {
+  .square-2{
+    transform: rotate(240deg);
+    width: 20%;
+  }
+  .square-3{
+    transform: rotate(120deg);
+    width: 20%;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+  .services-title{
+    right: 30%;
+    position: absolute;
+  }
+
+  .ser-title-line{
+    width: 8rem;
+  }
+
+  .ser-title-con p{
+    font-size: 1.125rem;
+    margin-right: 3.29rem;
+  }
+
+  .ser-title-con div svg{
+    width: 0.93681rem;
+    height: 0.93681rem;
+  }
+
+  .square-1,
+  .square-2,
+  .square-3,
+  .square-4{
+    display: none;
+  }
+
+  .services-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 15rem;
+  }
+
+  .serv-text-with-photos{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serv-text-con{
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serv-logos{
+    width: 5.17888rem;
+    height: 5.17888rem;
+    margin: 0;
+  }
+
+
+  .serv-text-with-photos:nth-child(odd){
+    margin: 0rem;
+  }
+  
+  .serv-text-with-photos:nth-child(even){
+    margin: 0rem;
+  }
+  
+  .serv-text-with-photos:nth-child(even) .serv-text-con {
+    margin: 0rem;
+  }
+  .serv-text-with-photos:nth-child(odd) .serv-logos {
+    order: 1;
+    margin: 0;
+    
+    /* transform: translateY(3rem); */
+  }
+
+  .services-info .serv-text-with-photos:nth-of-type(2n){
+    transform: translateY(50%);
+  }
+  .services-info{
+    margin: 0 2rem;
+  }
+  .services-title{
+    right: 20%;
+  }
+
+}
+
+@media (max-width: 992px) {
+  
+
+  
+}
+
+@media (max-width: 768px) {
+  .services-title{
+    right: 18%;
+  }
+
+  .ser-text-title{
+    font-size: 1.125rem;
+  }
+
+  .ser-text{
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .services-info{
+    margin: 0 0.94rem;
+  }
+
+  .services-title{
+    right: .94rem;
+  }
+
+  .ser-title-line{
+    width: 5rem;
+  }
+
+  .ser-title-con p{
+    font-size: 0.875rem;
+    margin-right: .5rem;
+  }
+
+  .ser-title-con div svg{
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .ser-text-title{
+    font-size: 0.875rem;
+  }
+
+  .ser-text{
+    font-size: 0.75rem;
+  }
+
+  .serv-logos{
+    width: 2.76413rem;
+    height: 2.76413rem;
+  }
+}

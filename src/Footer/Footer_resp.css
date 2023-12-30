@@ -1,0 +1,97 @@
+@media (max-width: 1400px) {
+
+  .footer-company-logos{
+    margin-bottom: 6rem;
+  }
+  .footer-web-logo{
+    display: none;
+  }
+  .footer-photos-con{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin-bottom: 2.7rem;
+  }
+  .footer-soc-logos{
+    margin-right: 0;
+    gap: 0;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .soc-underline {
+    display: block;
+    height: 0.1rem;
+    width: 70%;
+    margin-bottom: 2.7rem;
+    margin-left: auto; /* Move the underline to the right */
+    background: #FFF;
+  }
+
+
+  .footer-info-side{
+    display: none;
+  }
+
+  .end-line{
+    display: none;
+  }
+
+  .end{
+    margin-top: 3rem;
+  }
+} 
+@media (max-width: 1200px) {
+  .footer{
+    margin: 0 1.88rem;
+  }
+  .footer-company-logos{
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+  }
+  
+  .footer-webdoors-logo-con{
+    width: 70%;
+  }
+
+  .footer-webdoors-logo-con img{
+    width: 100%; /* Use 100% to make the image fill its container */
+    height: auto;
+    max-width: 100%
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  .footer-company-logos{
+    display: none;
+  }
+
+  .footer-soc-logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .footer-soc-logos svg{
+    width: 100%;
+    /* height: auto; */
+    
+  }
+
+  .footer-photos-con{
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer{
+    margin: 0 .94rem;
+  }
+  .footer-webdoors-logo-con{
+    width: 100%;
+  }
+}

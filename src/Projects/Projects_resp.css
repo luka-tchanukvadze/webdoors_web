@@ -1,0 +1,162 @@
+
+@media (max-width: 1200px) {
+
+
+
+  .projects-head-title-con  p{
+    font-size: 1.8rem;
+  }
+
+  .projects-bottom{
+    margin: 0 1.88rem;
+  }
+
+  .projects-head-text{
+    width: 70%;
+    font-size: 1rem;
+  }
+
+  .projects-head-text span{
+    font-size: 1.05rem;
+  }
+
+  .projects-alone{
+    font-size: 1.15rem;
+  }
+
+  .projects-name{
+    font-size: 1.5rem;
+    
+  }
+
+  .projects-text{
+    font-size: 1.225rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .projects-head-title-con  p{
+    font-size: 1.6rem;
+  }
+
+  .projects-bottom{
+    margin: 0 1.88rem;
+  }
+
+  .projects-head-text{
+    width: 70%;
+    font-size: .9rem;
+  }
+
+  .projects-head-text span{
+    font-size: 0.96rem;
+  }
+
+  .projects-alone{
+    font-size: 1rem;
+  }
+
+  .projects-name{
+    font-size: 1.3rem;
+    
+  }
+
+  .projects-text{
+    font-size: 1.05rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-head-title-con  p{
+    font-size: 1.2rem;
+  }
+
+
+  .projects-head-text{
+    width: 70%;
+    font-size: .85rem;
+  }
+
+  .projects-head-text span{
+    font-size: 0.9rem;
+  }
+
+  .projects-alone{
+    font-size: .85rem;
+    margin-top: 4rem;
+  }
+  .projects-flex-con{
+    gap: 3rem;
+  }
+
+  .projects-name{
+    font-size: 1.1rem;
+    
+  }
+
+  .projects-text{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .projects{
+    margin: 5rem 0;
+    margin-bottom: 3rem;
+  }
+  
+  .projects-head-title-con  p{
+    font-size: 1.1rem;
+  }
+
+  .projects-head-title-con svg{
+    width: 0.93681rem;
+    height: 0.93681rem;
+  }
+
+  .projects-bottom{
+    margin: 0 .94rem;
+  }
+
+  .projects-head-text{
+    width: 70%;
+    font-size: .8rem;
+  }
+
+  .projects-head-text span{
+    font-size: 0.85rem;
+  }
+
+  .projects-alone{
+    font-size: .8rem;
+    margin-top: 4rem;
+  }
+  .projects-flex-con{
+    gap: 2rem;
+  }
+
+  .projects-name{
+    font-size: .9rem;
+    
+  }
+
+  .projects-alone-line{
+    margin: 0rem 0;
+  
+  }
+
+  .projects-text{
+    font-size: 0.8rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}

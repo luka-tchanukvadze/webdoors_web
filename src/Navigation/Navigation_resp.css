@@ -1,0 +1,122 @@
+@media (max-width: 1200px) {
+  .navigation{
+    margin: 0 1.87rem;
+  }
+  .nav-cont{
+    margin-bottom: 10rem;
+  }
+
+  .nav-text{
+    display: none;
+  }
+
+  .nav-person-2-con{
+    display: block;
+  }
+
+  .nav-person-2-con img{
+    width: 2.0625rem;
+    height: 2.0625rem;
+  }
+
+  .menu{
+    width: 2.3125rem;
+    height: 1.1875rem;
+  }
+
+  .nav-person-con{
+    display: none;
+  }
+
+  .nav-text-1{
+    font-size: 1rem;
+  }
+  
+  .nav-text-2{
+    font-size: 2rem;
+  }
+  
+  .nav-text-3{
+    font-size: .95rem;
+  }
+  
+  .nav-text-4-con{
+    padding: 0.7rem 1rem;
+    margin-bottom: 7.5rem;
+  }
+  
+  .nav-text-4{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navigation{
+    margin: 0 1.87rem;
+  }
+
+  .nav-cont{
+    margin-bottom: 8rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .nav-cont{
+    margin-bottom: 5rem;
+  }
+
+  .nav-text-1{
+    font-size: .8rem;
+  }
+  
+  .nav-text-2{
+    font-size: 1.5rem;
+  }
+  
+  .nav-text-3{
+    font-size: .7rem;
+  }
+  
+  .nav-text-4-con{
+    padding: 0.5rem .8rem;
+    margin-bottom: 7.5rem;
+  }
+  
+  .nav-text-4{
+    font-size: .8rem;
+  }
+
+  
+}
+
+@media (max-width: 576px) {
+  .navigation{
+    margin: 0 0.94rem;
+  }
+
+  .nav-info-con{
+    margin-bottom: 5rem;
+  }
+
+  .nav-text-1{
+    font-size: .7rem;
+  }
+  
+  .nav-text-2{
+    font-size: 1.2rem;
+  }
+  
+  .nav-text-3{
+    font-size: .6rem;
+  }
+  
+  .nav-text-4-con{
+    padding: 0.4rem .7rem;
+    margin-bottom: 3rem;
+  }
+  
+  .nav-text-4{
+    font-size: .7rem;
+  }
+}

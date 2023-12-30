@@ -1,0 +1,85 @@
+.footer{
+  margin: 0 15rem;
+}
+
+.footer-company-logos{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+.footer-photos-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 4rem;
+}
+
+.soc-underline{
+  display: none;
+}
+
+.footer-soc-logos {
+  display: flex;
+  gap: 2.62rem;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer-webdoors-logo-con{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-info-texts-con{
+  display: flex;
+  gap: 2.37rem;
+  margin-right: 4rem;
+}
+
+.footer-info-text{
+  color: #D7E0E8;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+.footer-info-text span{
+  text-align: justify;
+  font-size: 1.125rem;
+}
+
+.end{
+  margin-top: 1.19rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.end p{
+  color: #98A5B2;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.end-line{
+  width: 40%;
+  height: .1rem;
+  background: #FFF;
+  margin-right: 3rem;
+}

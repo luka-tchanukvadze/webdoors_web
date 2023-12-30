@@ -7,7 +7,7 @@ import Footer from "./Footer/Footer";
 
 function Layout() {
   return (
-    <div style={{ backgroundColor: "red" }}>
+    <div>
       <Navigation />
       <Services />
       <Projects />
