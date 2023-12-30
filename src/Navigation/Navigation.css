@@ -132,6 +132,8 @@
 
 .nav-text-4-con{
   /* display: inline-flex; */
+  margin-inline: auto ;
+  width: fit-content;
   display: flex;
   flex-shrink: 0;
   padding: 0.9375rem 1.25rem;
